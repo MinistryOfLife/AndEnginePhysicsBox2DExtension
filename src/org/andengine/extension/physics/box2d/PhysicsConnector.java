@@ -3,6 +3,7 @@ package org.andengine.extension.physics.box2d;
 import org.andengine.engine.handler.IUpdateHandler;
 import org.andengine.entity.shape.IAreaShape;
 import org.andengine.entity.shape.IShape;
+import org.andengine.extension.physics.box2d.util.constants.PConstants;
 import org.andengine.extension.physics.box2d.util.constants.PhysicsConstants;
 import org.andengine.util.math.MathUtils;
 
@@ -48,7 +49,7 @@ public class PhysicsConnector implements IUpdateHandler, PhysicsConstants {
 	}
 
 	public PhysicsConnector(final IAreaShape pAreaShape, final Body pBody, final boolean pUdatePosition, final boolean pUpdateRotation) {
-		this(pAreaShape, pBody, pUdatePosition, pUpdateRotation, PIXEL_TO_METER_RATIO_DEFAULT);
+		this(pAreaShape, pBody, pUdatePosition, pUpdateRotation, PConstants.PIXEL_TO_METER_RATIO_DEFAULT);
 	}
 
 	public PhysicsConnector(final IAreaShape pAreaShape, final Body pBody, final boolean pUdatePosition, final boolean pUpdateRotation, final float pPixelToMeterRatio) {

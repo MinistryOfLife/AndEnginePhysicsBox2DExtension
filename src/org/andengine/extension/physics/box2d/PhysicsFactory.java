@@ -1,14 +1,13 @@
 package org.andengine.extension.physics.box2d;
 
 
-import static org.andengine.extension.physics.box2d.util.constants.PhysicsConstants.PIXEL_TO_METER_RATIO_DEFAULT;
+import static org.andengine.extension.physics.box2d.util.constants.PConstants.PIXEL_TO_METER_RATIO_DEFAULT;
 
 import java.util.List;
 
 import org.andengine.entity.primitive.Line;
 import org.andengine.entity.shape.IAreaShape;
 import org.andengine.entity.shape.IShape;
-import org.andengine.extension.physics.box2d.util.constants.PhysicsConstants;
 import org.andengine.util.Constants;
 import org.andengine.util.math.MathUtils;
 
